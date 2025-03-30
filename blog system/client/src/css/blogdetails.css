@@ -1,0 +1,118 @@
+/* BlogDetails.css */
+.blog-details-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d2d2d;
+  }
+  
+  .blog-details-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .blog-details-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-details-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    background: #fafafa;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .blog-back-link {
+    display: block;
+    margin-top: 30px;
+    text-align: left;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .blog-back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .blog-loading {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .blog-interactions {
+    margin-top: 30px;
+  }
+  
+  .like-button {
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+  }
+  
+  .like-button:hover {
+    background-color: #e54848;
+  }
+  
+  .blog-comments {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .blog-comments h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog-comments textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    resize: none;
+    font-size: 1rem;
+  }
+  
+  .comment-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .comment-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .comment {
+    background: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    list-style: none;
+  }
+    
