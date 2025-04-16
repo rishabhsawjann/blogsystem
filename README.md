@@ -15,5 +15,6 @@ A modern blog system built using React.js that fetches articles from the Dev.to 
 2. Open the terminal  
 3. Run:  
    ```sh
+   cd "blog system"
    cd client
    npm start
