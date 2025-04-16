@@ -18,3 +18,5 @@ A modern blog system built using React.js that fetches articles from the Dev.to 
    cd "blog system"
    cd client
    npm start
+
+📄 [View Project Report (PDF)](Blog_Report.pdf)
